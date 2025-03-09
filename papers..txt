@@ -1,0 +1,9 @@
+import sys
+
+if len(sys.argv) > 1:
+    query = sys.argv[1]
+else:
+    query = "default_query"
+
+paper_ids = fetch_pubmed_papers(query)
+print("Fetched Paper IDs:", paper_ids)
