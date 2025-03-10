@@ -88,6 +88,19 @@ Tools & Libraries Used
 
 The project is built using the following tools:
 
+## Dependencies
+This project requires the following Python libraries:
+
+- *requests* – For making API requests to PubMed.
+- *pandas* – For processing and saving CSV data.
+- *numpy* – For handling numerical computations.
+- *python-dateutil* – For managing datetime operations.
+- *pytz* & *tzdata* – For timezone handling.
+- *urllib3* & *certifi* – For secure HTTP requests.
+
+To install all dependencies, run:
+```bash
+poetry install
 
 ---
 
